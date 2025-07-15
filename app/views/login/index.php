@@ -3,7 +3,7 @@
 			<div class="page-header" id="banner">
 					<div class="row">
 							<div class="col-lg-12">
-									<h1 class="text text-decoration-none"><span class="text-decoration-underline">Login ^_^</span></h1>
+									<h1 class="text text-decoration-none">Login ^_^</h1>
 							</div>
 					</div>
 			</div>
@@ -23,7 +23,7 @@
 				</div>
 							<br>
 					<div class="d-flex justify-content-center align-items-center gap-3">
-						<button type="submit" class="btn btn-primary d-block">Login</button>
+						<button type="submit" class="btn btn-dark d-block">Login</button>
 						<a href="/create">Click for Signup</a>
 					</div>
 			</fieldset>
