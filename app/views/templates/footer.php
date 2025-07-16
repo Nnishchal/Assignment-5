@@ -1,4 +1,4 @@
-<footer class="footer fixed-bottom bg-dark text-white">    
+<footer class="footer bg-dark text-white">    
     <div class="row">
         <div class="col-lg-12">
             <p class="mt-2 mb-2 fs-5 fw-bolder">Assignment - 5</p>
@@ -11,6 +11,7 @@
 
 <style>
     footer{
+        bottom: 0;
         align-items: center;
         width: 100vw;
         text-align: center;
