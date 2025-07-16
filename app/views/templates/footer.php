@@ -11,10 +11,13 @@
 
 <style>
     footer{
+        position: absolute;
         bottom: 0;
         align-items: center;
         width: 100vw;
         text-align: center;
+        margin: auto;
+        right: 0;
     }
 </style>
 

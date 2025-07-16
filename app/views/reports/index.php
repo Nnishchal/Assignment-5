@@ -123,6 +123,10 @@
   .table th, td {
     text-align: center;
   }
+
+  footer{
+     bottom: auto !important;
+  }
 </style>
 
 <?php require_once 'app/views/templates/footer.php' ?>  
