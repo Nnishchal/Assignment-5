@@ -3,7 +3,7 @@ if (isset($_SESSION['auth']) == 1) {
     header('Location: /home');
 }
 ?>
-
+<?php include 'app/views/templates/alert.php' ?>  
 <!DOCTYPE html>
 <html lang="en">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">

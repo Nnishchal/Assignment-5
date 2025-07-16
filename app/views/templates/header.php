@@ -2,7 +2,9 @@
 if (!isset($_SESSION['auth'])) {
     header('Location: /login');
 }
+$is_admin = $_SESSION['username'] == 'Admin' ? true : false;  
 ?>
+<?php include 'app/views/templates/alert.php' ?>  
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -26,7 +28,19 @@ if (!isset($_SESSION['auth'])) {
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/home">Home</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/reminders">Reminders</a>
+        </li>
+        <?php if ($is_admin === true): ?><li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/reports">Reports</a>
+        </li>
+        <?php endif;?>
       </ul>
+      <div class="row justify-content-end" style="text-align: center;">
+          <div class="col-lg-12">
+              <p class="mb-0"> >><a href="/logout">Click here to logout</a><<</p>
+          </div>
+      </div>
     </div>
   </div>
 </nav>
