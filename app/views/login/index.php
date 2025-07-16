@@ -1,9 +1,10 @@
 	<?php require_once 'app/views/templates/headerPublic.php'?>
-	<main role="main" class="container  container-center" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+<body>
+<main role="main" class="container  container-center" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
 			<div class="page-header" id="banner">
 					<div class="row">
 							<div class="col-lg-12">
-									<h1 class="text text-decoration-none">Login ^_^</h1>
+									<h1 class="text-decoration-none">Login ^_^</h1>
 							</div>
 					</div>
 			</div>
@@ -30,5 +31,6 @@
 			</form>
 			<br>
 		</div>
-	</div>	
+	</div>
+</body>	
 	<?php require_once 'app/views/templates/footer.php' ?>
